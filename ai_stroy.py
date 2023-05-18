@@ -4,6 +4,8 @@ import sys
 import random
 
 # Replace YOUR_API_KEY with your OpenAI API key
+openai.api_key = sys.argv[1]
+#openai.api_key = "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"
 
 # Set the model engine to use for text generation
 model_engine = "text-davinci-002"
